@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+}
+
+.item-card {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+
+.disable-item {
+  opacity: 0.6;
+  cursor:not-allowed;
+  color: red;
+  display: flex;
+  justify-content: center;
+  text-decoration: line-through;
+}
+
+.hidden { 
+    display: none;
+}
